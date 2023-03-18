@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-idezetek": {
+      "hosting": {
+        "Idezet": [
+          "fir-idezetek"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-idezetek"
+  }
+}

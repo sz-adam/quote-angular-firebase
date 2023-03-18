@@ -1,0 +1,60 @@
+.homediv{
+    background-color: #328083;
+}
+.left, .right {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+h1 {
+    text-align: center;
+    padding: 2rem 0;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input,textarea {    
+    width: 70%;   
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+}
+  
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+
+.quote-container {
+  
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.quote-container >div{
+    margin: 1rem;
+    
+}
+
+.author,label{
+    font-weight: bold;
+    font-style: italic;
+}

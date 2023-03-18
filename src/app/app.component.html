@@ -1,0 +1,11 @@
+
+
+
+<nav *ngIf="this.auth.isLoggedIn()">
+    
+ 
+    <a (click)="this.auth.logout()">Logout</a>
+
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,26 @@
+<div class="homediv">
+<h1>Írjon be egy idézetet</h1>
+<div class="left">
+    <div>
+        <label>Szerző:</label>
+        <input class="inputAuthor" type="text" [(ngModel)]="this.actualauthor">
+    </div>
+    <div>
+        <label>Idézet:</label>
+        <textarea rows="6"  [(ngModel)]="this.actualtitle"></textarea>
+       
+    </div>
+    <button (click)="add()">Küldés</button>
+</div>
+
+<div class="right">
+    <div class="quote-container" *ngFor="let q of this.quote">
+        <div>" {{q.title}} "</div>
+        <div class="author">{{q.author}}</div>
+        <div class="author">Beküldte: {{q.userName}}</div>
+      
+      
+       
+    </div>
+</div>
+</div>
